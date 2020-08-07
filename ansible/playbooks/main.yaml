@@ -1,0 +1,6 @@
+---
+# This will deploy the Falcon Sensor/Agent on all hosts defined
+
+- hosts: 127.0.0.1
+  roles:
+  - { role: crowdstrike-falcon, cs_falcon_cid: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX }
